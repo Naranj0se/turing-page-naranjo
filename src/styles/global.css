@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background-color: #fffcf9;
+    font-family: 'Montserrat', sans-serif;
+    margin:0px;
+}
+
+nav {
+    z-index: 100;
+    width: 100%;
+    position:fixed;
+    background-color: #3a98b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+    height: 64px;
+}
+
+.footer {
+    display: flex;
+    background-color: #28232b;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    padding: 12px 32px 12px 32px; 
+}
+
+li {
+    list-style: none;
+    transition: background-color 0.2s ease-out 100ms;
+    padding: 14px;
+    border-radius: 12px;
+}
+
+li:hover{
+    background-color: #214b5d;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.main-section h1 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.main-section h3 {
+    width: 50%;
+    text-align: center;
+    font-weight: 300;
+}
+
+.main-section figure {
+    padding-top: 64px;
+    background-color:rgba(0, 0, 0, 0.75) ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.main-section {
+    background-image: url('../../public/img/turingwallpaper.webp');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.edison-home-img{
+    border-radius: 100%;
+    width: 250px;
+}
+
+.introduccion {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 12px;
+}
+
+.introduccion figure {
+    height:fit-content;
+    background-color: #f4e8d8;
+    border-radius: 4px;
+    padding: 18px;
+    padding-bottom: 38px;
+    margin: 0px;
+}
+
+.introduccion figure p {
+    margin-bottom: 28px;
+}
+
+.introduccion figure a {
+    list-style: none;
+    background-color: #6fbb9e;
+    transition: background-color 0.2s ease-out 100ms;
+    padding: 14px;
+    border-radius: 12px;
+}
+
+.introduccion figure a:hover {
+    background-color: #e6b364;
+}
+
+.info-section {
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.info-section section {
+    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+
+.info-section section p {
+    margin: 0;
+}
+
+.info-section section img {
+    width: 50%;
+    border-radius: 8px;
+}
+
